@@ -2,21 +2,15 @@ Idea of the program:
 
 1. user runs the program 
 
-2. program greets user, 
-2.1  and goes on with:
-	" to add a new task, click 'OK', or else click cancel
-	
-	if ok:						if cancel: program shows list of to do's and 
-	- input dialog opens up					stops running
-	
-3. user types  the task, and then clicks ok.
-
-4. program asks user if he is sure that this is what he
-	wants to make his task by showing him what he typed:
-	
-		- if user is sure that that's what he wants he clicks yes.
+2. program shows 6 options:
+		1. Show ToDo's
+		2. add item
+		3. remove item
+		4. change item
+		5. Mark as DONE
 		
-			- the program repeats step 2.1
-		- if he decides 'no',
-			program returns the previous task and switches it with
-			the new/modified task that user wants.
+2.1 Shows ToDo List
+2.2 Adds an item to the end of ToDo List
+2.3 Removes an item at index i from the ToDoList
+2.4 Changes an item at index i of ToDoList to the new Item 'item'
+2.5 Marks an item as DONE and moves it to the top of The List
