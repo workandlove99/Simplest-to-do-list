@@ -1,0 +1,22 @@
+Idea of the program:
+
+1. user runs the program 
+
+2. program greets user, 
+2.1  and goes on with:
+	" to add a new task, click 'OK', or else click cancel
+	
+	if ok:						if cancel: program shows list of to do's and 
+	- input dialog opens up					stops running
+	
+3. user types  the task, and then clicks ok.
+
+4. program asks user if he is sure that this is what he
+	wants to make his task by showing him what he typed:
+	
+		- if user is sure that that's what he wants he clicks yes.
+		
+			- the program repeats step 2.1
+		- if he decides 'no',
+			program returns the previous task and switches it with
+			the new/modified task that user wants.
